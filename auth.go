@@ -1,3 +1,7 @@
+// test push diff project
+// git push --mirror url ---> 相当于rsync --delete,会删除远程仓库原有的代码+历史记录
+
+// git push url branch
 package obs
 
 import (
